@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36121.58
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountCodeSystem", "DiscountCodeSystem.csproj", "{D6C95EFD-CF69-7E8A-8F19-7BB057B86442}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountCodeSystemTests", "..\DiscountCodeSystemTests\DiscountCodeSystemTests.csproj", "{FC86882F-49BF-5330-382B-6B986CC0AB1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6C95EFD-CF69-7E8A-8F19-7BB057B86442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C95EFD-CF69-7E8A-8F19-7BB057B86442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C95EFD-CF69-7E8A-8F19-7BB057B86442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C95EFD-CF69-7E8A-8F19-7BB057B86442}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC86882F-49BF-5330-382B-6B986CC0AB1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC86882F-49BF-5330-382B-6B986CC0AB1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC86882F-49BF-5330-382B-6B986CC0AB1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC86882F-49BF-5330-382B-6B986CC0AB1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA41E9D5-6EA1-4E7D-BE3A-9762ABAD6833}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Discount Code Listener</title>
+</head>
+<body>
+    <h2>Incoming Discount Codes:</h2>
+    <ul id="messages"></ul>
+    <script>const ws = new WebSocket("wss://localhost:7080/ws/notifications");
+    ws.onmessage = (event) => {
+      const li = document.createElement("li");
+      li.textContent = event.data;
+      document.getElementById("messages").appendChild(li);
+    };</script>
+</body>
+</html>
